@@ -1,7 +1,8 @@
 {
-  "name": "claude-req-sys",
+  "marketplace": "claude-req-sys",
   "owner": {
-    "name": "19944"
+    "name": "19944",
+    "contact": "https://github.com/zxc1213"
   },
   "plugins": [
     {
@@ -16,18 +17,27 @@
         "url": "https://github.com/zxc1213/claude-req-sys-plugin.git"
       },
       "license": "MIT",
-      "source": "./plugins/claude-req-sys",
+      "source": {
+        "type": "git-subdir",
+        "url": "https://github.com/zxc1213/claude-req-sys-plugin.git",
+        "subdir": "/",
+        "branch": "feature/plugin-migration"
+      },
       "keywords": [
         "requirements",
         "management",
         "brainstorming",
         "testing",
-        "knowledge-graph"
+        "knowledge-graph",
+        "质量门禁",
+        "优先级评估",
+        "深度分析"
       ],
       "category": "development",
       "tags": [
         "project-management",
         "documentation",
+        "testing",
         "workflow"
       ]
     }
