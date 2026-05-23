@@ -6,30 +6,8 @@
   "plugins": [
     {
       "name": "claude-req-sys",
-      "displayName": "ClaudeReqSys",
-      "description": "智能需求管理系统 - 从需求到测试的全流程自动化，集成深度需求分析",
-      "version": "0.7.0",
-      "author": "19944",
-      "homepage": "https://github.com/zxc1213/claude-req-sys-plugin",
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/zxc1213/claude-req-sys-plugin.git"
-      },
-      "license": "MIT",
       "source": "./plugins/claude-req-sys",
-      "keywords": [
-        "requirements",
-        "management",
-        "brainstorming",
-        "testing",
-        "knowledge-graph"
-      ],
-      "category": "development",
-      "tags": [
-        "project-management",
-        "documentation",
-        "workflow"
-      ]
+      "description": "智能需求管理系统 - 从需求到测试的全流程自动化"
     }
   ]
 }
