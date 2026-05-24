@@ -9,7 +9,7 @@ CRS 插件的 Marketplace 配置仓库。
 /plugin marketplace add zxc1213/crs-marketplace
 
 # 2. 安装 CRS 插件
-/plugin install crs-marketplace/crs
+/plugin install crs
 ```
 
 ## 插件功能
