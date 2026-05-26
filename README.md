@@ -1,8 +1,10 @@
 # CRS Marketplace
 
-CRS 插件的 Marketplace 配置仓库。
+CRS 插件的 Marketplace 配置仓库，支持 **Claude Code** 和 **Codex** 两个平台。
 
 ## 安装插件
+
+### Claude Code 平台
 
 ```bash
 # 1. 添加此 Marketplace
@@ -10,6 +12,16 @@ CRS 插件的 Marketplace 配置仓库。
 
 # 2. 安装 CRS 插件
 /plugin install crs
+```
+
+### Codex 平台
+
+```bash
+# 1. 添加此 Marketplace
+codex plugin marketplace add zxc1213/crs-marketplace
+
+# 2. 安装 CRS 插件
+codex plugin install claude-req-sys-plugin
 ```
 
 ## 插件功能
@@ -38,6 +50,15 @@ CRS 是一个智能需求管理系统，提供：
 # 查看仪表板
 /crs:r --dashboard
 ```
+
+## 双平台说明
+
+本仓库提供两个平台的marketplace配置：
+
+- **Claude Code**: `marketplace.json` - 适用于 Claude Code 用户
+- **Codex**: `marketplace-codex.json` - 适用于 Codex 用户
+
+两个平台共享相同的插件源代码（[zxc1213/crs-plugin](https://github.com/zxc1213/crs-plugin)），功能完全一致。
 
 ## 更多信息
 

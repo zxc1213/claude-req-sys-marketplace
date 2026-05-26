@@ -1,0 +1,33 @@
+{
+  "name": "crs-codex-plugins",
+  "plugins": [
+    {
+      "name": "claude-req-sys-plugin",
+      "displayName": "CRS",
+      "description": "智能需求管理系统 - 5阶段文档工作流强制执行，从需求捕获到测试完成的全流程自动化",
+      "version": "0.8.5",
+      "author": {
+        "name": "19944"
+      },
+      "homepage": "https://github.com/zxc1213/crs-plugin",
+      "repository": "https://github.com/zxc1213/crs-plugin",
+      "license": "MIT",
+      "source": {
+        "source": "github",
+        "repo": "zxc1213/crs-plugin",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "tags": [
+        "project-management",
+        "documentation",
+        "testing",
+        "automation"
+      ]
+    }
+  ]
+}
