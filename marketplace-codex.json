@@ -13,8 +13,9 @@
       "repository": "https://github.com/zxc1213/crs-plugin",
       "license": "MIT",
       "source": {
-        "source": "github",
-        "repo": "zxc1213/crs-plugin",
+        "source": "git-subdir",
+        "url": "https://github.com/zxc1213/crs-plugin.git",
+        "path": "./",
         "ref": "main"
       },
       "policy": {
