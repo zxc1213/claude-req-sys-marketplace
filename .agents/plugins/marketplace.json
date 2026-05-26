@@ -1,5 +1,5 @@
 {
-  "name": "crs-codex-plugins",
+  "name": "crs",
   "plugins": [
     {
       "name": "claude-req-sys-plugin",
